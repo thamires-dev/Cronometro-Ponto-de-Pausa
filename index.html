@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Cronômetro</title>
+    </head>
+
+    <body>
+        <h1 class="titulo">
+            Cronômetro / Ponto de Pausa
+        </h1>
+
+        <section class="cronometro">
+            <span id="horas">00</span> :
+            <span id="minutos">00</span> :
+            <span id="segundos">00</span>
+        </section>
+
+
+        <section class="secButtons">
+            <button id="buttonIniciar" class="buttons" onclick="iniciarCronometro()">Iniciar</button>
+            <button id="buttonParar" class="buttons" onclick="pararCronometro()">Parar</button>
+        </section>
+
+        <section class="secFormulario">
+
+            <form id="formulario" name="" method="" action="">
+
+                <p id="input">
+                    <label for="inputSenha">Insira a sua senha:</label>
+                    <input type="text" name="inputSenha" id="inputSenha" />
+                </p>
+
+                <button class="buttonSenha" type="submit">Enviar</button>
+
+                <p id="msgAutenticacao">
+                    <!-- Aqui aparecerá se a senha inserida está incorreta -->
+                </p>
+
+            </form>
+
+        </section>
+
+
+        <footer>
+            <p>Desenvolvido por Thamires Santos</p>
+            <a target="_blank" href="https://www.linkedin.com/in/thamires-dev/">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a target="_blank" href="https://github.com/thamires-dev">
+                <i class="fab fa-github-square"></i>
+            </a>
+        </footer>
+    </body>
+
+    <script src="https://kit.fontawesome.com/b4e3e07fa2.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+
+</html>

@@ -1,0 +1,65 @@
+body {
+    font-size: 14px;
+    font-family: Verdana;
+}
+
+.titulo {
+    margin: 15px auto;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.cronometro {
+    margin: 0 auto;
+    padding: 10px 0;
+    background-color: #000000;
+    border-radius: 10px;
+    width: 60%;
+    text-align: center;
+    color: #ffffff;
+    font-size: 4rem;
+}
+
+.secButtons{
+    margin: 0 auto;
+    padding: 10px 0;
+    width: 60%;
+    text-align: center;
+}
+
+.buttons {
+    display: inline-flex;
+    margin: 0 auto;
+    background-color: #ff4800;
+    border: #000000;
+    border-radius: 7px;
+    padding: 5px;
+    font-size: 2rem;
+    color: #ffffff;
+}
+
+.secFormulario {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.buttonSenha {
+    background-color: #ff4800;
+    border: #000000;
+    border-radius: 5px;
+    padding: 3px 7px;
+    margin: 3px 10px;
+    font-size: 1rem;
+    color: #ffffff;
+}
+
+footer {
+    padding: 15px 0;
+    text-align: center;
+    background-color: #f5f4f4;
+}
+footer i {
+    color: #2c2c2c;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
