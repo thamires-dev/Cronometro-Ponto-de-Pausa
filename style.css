@@ -20,6 +20,13 @@ body {
     font-size: 4rem;
 }
 
+@media only screen and (max-width: 669px) {
+    .cronometro {
+        width: 100%;
+        font-size: 2.5rem;
+    }
+}
+
 .secButtons{
     margin: 0 auto;
     padding: 10px 0;
@@ -31,7 +38,6 @@ body {
     display: inline-flex;
     margin: 0 auto;
     background-color: #ff4800;
-    border: #000000;
     border-radius: 7px;
     padding: 5px;
     font-size: 2rem;
@@ -45,12 +51,25 @@ body {
 
 .buttonSenha {
     background-color: #ff4800;
-    border: #000000;
     border-radius: 5px;
     padding: 3px 7px;
     margin: 3px 10px;
     font-size: 1rem;
     color: #ffffff;
+}
+
+@media only screen and (max-width: 669px) {
+    .buttonSenha {
+        margin: 13px 0;
+        display: inline;
+        vertical-align: middle;
+    }
+}
+
+@media only screen and (max-width: 669px) {
+    #input {
+        width: 60%;
+    }
 }
 
 footer {
@@ -62,4 +81,10 @@ footer i {
     color: #2c2c2c;
     font-size: 1.5rem;
     text-decoration: none;
+}
+
+@media only screen and (max-width: 669px) {
+    footer i {
+        font-size: 2rem;
+    }
 }
